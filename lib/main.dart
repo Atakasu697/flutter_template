@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
@@ -21,6 +23,26 @@ class MyApp extends StatelessWidget {
         });
   }
 }
+
+// class MyHomePage extends StatelessWidget {
+//   const MyHomePage({Key? key}) : super(key: key);
+
+//   @override
+//   Widget build(BuildContext context) {
+//     const flavor = String.fromEnvironment('FLAVOR');
+//     return Scaffold(
+//       appBar: AppBar(
+//         title: const Text(flavor),
+//       ),
+//       body: Column(
+//         mainAxisAlignment: MainAxisAlignment.center,
+//         children: const <Widget>[
+//           Text(flavor),
+//         ],
+//       ),
+//     );
+//   }
+// }
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
